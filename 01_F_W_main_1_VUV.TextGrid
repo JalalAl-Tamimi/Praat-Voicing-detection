@@ -1,0 +1,112 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.6955328798185941 
+tiers? <exists> 
+size = 4 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Word" 
+        xmin = 0 
+        xmax = 0.695521088258389 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.005 
+            text = "" 
+        intervals [2]:
+            xmin = 0.005 
+            xmax = 0.69 
+            text = "ballash" 
+        intervals [3]:
+            xmin = 0.69 
+            xmax = 0.695521088258389 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "CVPhonemes" 
+        xmin = 0 
+        xmax = 0.695521088258389 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.005 
+            text = "" 
+        intervals [2]:
+            xmin = 0.005 
+            xmax = 0.06764222772338849 
+            text = "C1" 
+        intervals [3]:
+            xmin = 0.06764222772338849 
+            xmax = 0.15582553146187086 
+            text = "V1" 
+        intervals [4]:
+            xmin = 0.15582553146187086 
+            xmax = 0.2783743873925558 
+            text = "CC2" 
+        intervals [5]:
+            xmin = 0.2783743873925558 
+            xmax = 0.4216722559675896 
+            text = "V2" 
+        intervals [6]:
+            xmin = 0.4216722559675896 
+            xmax = 0.69 
+            text = "C3" 
+        intervals [7]:
+            xmin = 0.69 
+            xmax = 0.695521088258389 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "phoneme" 
+        xmin = 0 
+        xmax = 0.695521088258389 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.005 
+            text = "" 
+        intervals [2]:
+            xmin = 0.005 
+            xmax = 0.06764222772338849 
+            text = "b" 
+        intervals [3]:
+            xmin = 0.06764222772338849 
+            xmax = 0.15582553146187086 
+            text = "a" 
+        intervals [4]:
+            xmin = 0.15582553146187086 
+            xmax = 0.2783743873925558 
+            text = "ll" 
+        intervals [5]:
+            xmin = 0.2783743873925558 
+            xmax = 0.4216722559675896 
+            text = "a" 
+        intervals [6]:
+            xmin = 0.4216722559675896 
+            xmax = 0.69 
+            text = "sh" 
+        intervals [7]:
+            xmin = 0.69 
+            xmax = 0.695521088258389 
+            text = "" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "vuv" 
+        xmin = 0 
+        xmax = 0.6955328798185941 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.0010564110072960266 
+            text = "U" 
+        intervals [2]:
+            xmin = 0.0010564110072960266 
+            xmax = 0.4964337021586318 
+            text = "V" 
+        intervals [3]:
+            xmin = 0.4964337021586318 
+            xmax = 0.6955328798185941 
+            text = "U" 

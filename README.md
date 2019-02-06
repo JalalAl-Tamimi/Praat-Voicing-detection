@@ -1,4 +1,4 @@
-The script "VUV_Computations_v3.praat" provides an automated method to detect voicing based on a sound file. 
+The script "VUV_Computations_v4.praat" provides an automated method to detect voicing based on a sound file. 
 A TextGrid can be used as well and the results of the voicing detection will be merged to the original TextGrid.
 An example of original TextGrid and Sound file are provided in addition to a new TextGrid with extension "_VUV".
 

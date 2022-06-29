@@ -5,6 +5,7 @@
 ## Estimation of Pitch is based on the two-pass method.
 ## 06 February 2019: version 4. Changed voicing threshold to 0.7 (instead of default 0.45) for a better 
 ## detection of voiced frames.
+## 29 June 2022: Minor updates
 
 
 beginPause: "VUV computations"

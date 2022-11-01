@@ -1,3 +1,6 @@
+To cite, use: [![DOI](https://zenodo.org/badge/122322752.svg)](https://zenodo.org/badge/latestdoi/122322752)
+
+
 To access scripts and supporting documents, download the whole repository from [here](https://github.com/JalalAl-Tamimi/Praat-Voicing-detection). You can access it by clicking on "View on GitHub" on top.
 
 The script "VUV_Computations_v4.praat" provides an automated method to detect voicing based on a sound file. 

@@ -6,6 +6,7 @@
 ## 06 February 2019: version 4. Changed voicing threshold to 0.7 (instead of default 0.45) for a better 
 ## detection of voiced frames.
 ## 29 June 2022: Minor updates
+## 11 November 2022: Minor update fixing the script; error on line 51! and updates to new Praat scripting code
 
 
 beginPause: "VUV computations"
@@ -22,13 +23,13 @@ Create Strings as file list: "list", "'directory1$'\*.wav"
 numberOfFiles = Get number of strings
 
 for i from 1 to numberOfFiles
-	select Strings list
+	selectObject: "Strings list"
    	fileName$ = Get string: i
 
 	Read from file: "'directory1$'\'fileName$'"
 	name$ = selected$ ("Sound")
 	Read from file: "'directory1$'\'name$'.TextGrid"
-	select Sound 'name$'
+	selectObject: "Sound 'name$'"
 	Filter (pass Hann band): 0, 500, 20
 	soundFiltered = selected ("Sound")
 	select 'soundFiltered'
@@ -46,14 +47,14 @@ for i from 1 to numberOfFiles
 	pointProsess = noprogress To PointProcess (cc)
 	meanPeriod = Get mean period: 0, 0, 0.0001, 0.02, 1.3
 	To TextGrid (vuv): 0.02, meanPeriod
-	Rename...  'name$'_vuv
-	select TextGrid 'name$'_VUV
-	plus TextGrid 'name$'_vuv
+	Rename: "'name$'_vuv"
+	selectObject: "TextGrid 'name$'"
+	plusObject: "TextGrid 'name$'_vuv"
 	Merge
 
 	Write to text file: "'directory1$'\'name$'_VUV.TextGrid"
 	select all
-	minus Strings list
+	minusObject: "Strings list"
 	Remove
 endfor
 echo Finished! Check your new TextGrids located in 'directory1$'

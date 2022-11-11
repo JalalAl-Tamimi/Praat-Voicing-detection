@@ -100,10 +100,10 @@ item []:
         intervals: size = 3 
         intervals [1]:
             xmin = 0 
-            xmax = 0.0010564110072960266 
+            xmax = 0.0010564110072960663 
             text = "U" 
         intervals [2]:
-            xmin = 0.0010564110072960266 
+            xmin = 0.0010564110072960663 
             xmax = 0.4964337021586318 
             text = "V" 
         intervals [3]:

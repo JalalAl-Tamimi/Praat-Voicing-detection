@@ -3,7 +3,13 @@ To cite, use: [![DOI](https://zenodo.org/badge/122322752.svg)](https://zenodo.or
 
 To access scripts and supporting documents, download the whole repository from [here](https://github.com/JalalAl-Tamimi/Praat-Voicing-detection). You can access it by clicking on "View on GitHub" on top.
 
-The script "VUV_Computations_v4.praat" provides an automated method to detect voicing based on a sound file. 
+There are two version of this script: 
+
+1) The script "VUV_Computations_v5.praat" is to be used if you have a Praat version 6.3.22 or below.
+2) The script "VUV_Computations_v6.praat" is to be used for any version of Praat above 6.4. These new versions use the updated Praat algorithm for detection of pitch
+
+
+The two scripts "VUV_Computations_v5.praat" and "VUV_Computations_v5.praat" provide an automated method to detect voicing based on a sound file. 
 A TextGrid can be used as well and the results of the voicing detection will be merged to the original TextGrid.
 An example of original TextGrid and Sound file are provided in addition to a new TextGrid with extension "_VUV".
 
